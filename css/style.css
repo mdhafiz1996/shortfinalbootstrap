@@ -1,0 +1,224 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,800&display=swap');
+   font-family: 'Poppins', sans-serif;
+body{
+   color:#3c3768;
+}
+.header{
+  position: relative;
+ }
+
+
+.banner-img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.search-icon{}
+.search-icon button{
+ 
+background: rgb(157,88,110); 
+background: -moz-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(244,118,116,1) 100%); 
+background: -webkit-linear-gradient(left,  rgba(157,88,110,1) 0%,rgba(244,118,116,1) 100%); 
+background: linear-gradient(to right,  rgba(157,88,110,1) 0%,rgba(244,118,116,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d586e', endColorstr='#f47674',GradientType=1 ); 
+border-radius: 50%;
+width: 50px;
+height: 50px;
+line-height:50px;
+text-align: center;
+padding:0 0;
+color: #fff;
+box-shadow: 0px 0px 10px #9d586e;
+}
+.search-icon button:hover{
+  color: #fff;
+}
+.search-icon .dropdown-menu {
+   padding:0 0 !important;
+    top: 100%;
+    right: 0;
+    left:inherit;
+  }
+ .navbar-toggler {
+    border-color: rgb(0 0 0 / 0%) !important;
+}
+.navbar-toggler span{
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  display: block;
+  margin:5px 0px;
+  transition-duration: 0.3s;
+}
+.navbar-toggler span:nth-child(even){
+  width: 20px;
+}
+.navbar-toggler:hover span{
+  width: 30px;
+}
+.navbar-toggler :focus {
+  outline: 0 dotted;
+  outline: 0 auto-webkit-focus-ring-color auto 1px;
+}
+
+.banner-content{
+  max-width: 400px;
+  margin-top: 100px;
+}
+.banner-content h1{
+  font-size:34px;
+  font-weight: 900;
+  font-family:'Poppins', sans-serif;
+   
+  
+}
+.banner-content p{
+  line-height: 1.8;
+  font-size: 16px;
+}
+.banner-content h5{
+  line-height: 1.8;
+  font-size: 18px;
+}
+.form-group{
+margin-right: 20px;
+}
+.form-inline input{
+  padding: 10px 20px;
+  height: auto;
+  border:0px;
+  box-shadow: 0px 10px 25px #9d586e66;
+  font-weight: 100;
+}
+.form-inline button{
+  background: rgb(157,88,110); 
+background: -moz-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(244,118,116,1) 100%); 
+background: -webkit-linear-gradient(left,  rgba(157,88,110,1) 0%,rgba(244,118,116,1) 100%); 
+background: linear-gradient(to right,  rgba(157,88,110,1) 0%,rgba(244,118,116,1) 100%);  padding: 10px 20px;
+height: auto;
+ border:0px;
+ box-shadow: 0px 10px 25px #9d586e66;
+ color: white;
+ font-size: 20px;
+ font-weight: 600;
+}
+.form-inline input:focus,
+form-inline button:focus{
+  outline: none;
+  box-shadow: 0px 10px 25px #9d586e66;
+  border-color:#80bdff00;
+}
+.dropdown-menu {
+   
+    padding: 0 0 !important;
+    }
+
+.service-section{
+  position:relative;
+  padding: 50px 0px; 
+
+}
+.service-section img{
+  position:absolute;
+  max-width: 600px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+ 
+}
+.service {
+    box-shadow: 0px 10px 25px #9d586e2e;
+    padding: 40px;
+    background-color: #ffffff8c;
+    margin-left: 30px;
+}
+.service h2{
+  font-size: 32px;
+  font-weight: 600;
+}
+.service p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+.service a{
+  text-transform: uppercase;
+  font-weight: 600;
+  color:#fa7875;
+   margin-right: 10px;
+   text-decoration: none;
+}
+.service a i.fa-minus{
+  
+ margin-left: 10px;
+ margin-right: 2px;
+ font-size: 10px;
+ font-weight: 600;
+
+}
+.align-right img{
+  left:auto;
+  right: 0;
+}
+.footer .signup-box{
+  background-image: url(../images/subscription.png);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.footer{
+  
+}
+.footer img{
+ 
+  
+}
+.footer h2{
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+.footer p{
+  font-size: 16px;
+  font-weight: 600;
+  color:white;
+   line-height: 1.7;
+}
+.footer-section{
+  padding: 50px 0px;
+}
+.footer-section p{
+  color:black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.footer-section ul{}
+.footer-section ul li{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.footer-section ul li:hover{
+  color: #FA7875;
+}
+.footer-section ul li span{
+    color: #FA7875;
+
+}
+.sicial-icon{
+
+}
+.sicial-icon ul li a{
+   width:40px;
+  height: 40px;
+  line-height: 40px;
+  background-color:#36325F;
+  display: block;
+  margin-left: 10px;
+  text-align: center;
+  border-radius:50%;
+  color: white;
+  font-size: 22px;
+}
